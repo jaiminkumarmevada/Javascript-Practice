@@ -13,5 +13,17 @@ function myFunction(a, b) {
 //console.log(myFunction(' think, therefore I am', 'I'))
 //Expected 'I think, therefore I am'
 
+
 //myFunction('lips', 's')
 //Expected 'slips'
+
+
+
+//Write a function that takes a number as argument. If the number is even, return true. Otherwise, return false
+
+function oddeven(a){
+
+    return a%2===0?true:false
+}
+//console.log(addeven(10))
+// output true
