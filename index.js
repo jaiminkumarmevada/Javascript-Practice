@@ -27,3 +27,39 @@ function oddeven(a){
 }
 //console.log(addeven(10))
 // output true
+
+
+
+
+//Write a function that takes two strings (a and b) as arguments. Return the number of times a occurs in b.
+
+
+function myFunction(a, b) {
+let occ = 0;
+
+let arr = b.split("")
+
+arr.forEach((char)=>{
+    
+    if(a===char){
+        
+        return occ++
+    }
+    
+    else{
+        
+      return  occ
+    }
+    
+    
+})
+
+
+
+console.log(occ)
+}
+
+
+
+
+myFunction('?', 'how many times does the character occur in this sentence?')
