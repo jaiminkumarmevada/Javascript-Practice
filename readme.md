@@ -23,7 +23,7 @@ Feel free to explore the various folders and files in this repository, each cont
    ```
 2. **Navigate to the desired section**:
    ```bash
-   cd Javascript-Practice/<section-folder>
+   cd Javascript-Practice/index.js
    ```
 3. **Run the examples**:
    Open the files in your preferred code editor and run them in your browser or using Node.js to see the concepts in action.
