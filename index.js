@@ -35,30 +35,17 @@ function oddeven(a){
 
 
 function myFunction(a, b) {
-let occ = 0;
-
-let arr = b.split("")
-
-arr.forEach((char)=>{
-    
-    if(a===char){
-        
-        return occ++
-    }
-    
-    else{
-        
-      return  occ
-    }
-    
-    
-})
-
-
-
-console.log(occ)
+    let occ = 0;
+    let arr = b.split("");
+    arr.forEach((char) => {
+        if (a === char) {
+            occ++;
+        }
+    });
+    return occ;
 }
 
+//other approach 
 
 
 
