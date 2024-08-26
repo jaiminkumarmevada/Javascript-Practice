@@ -78,3 +78,13 @@ muFunction([1,2,3,4,5],3)
 
 //myFunction([7,2,1,6,3],1)
 //Expected7
+
+//Write a code that takes an array as argument. Remove the first 3 elements of array. print the result
+
+
+let arr = ['Jaimin','Mayur','Nilesh','Dhruv','Naman']
+
+//firstv 3 element remove
+
+let ending = arr.length+1 ;
+console.log(arr.slice(3,ending))
