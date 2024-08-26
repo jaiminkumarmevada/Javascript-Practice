@@ -49,4 +49,32 @@ function myFunction(a, b) {
 
 
 
-myFunction('?', 'how many times does the character occur in this sentence?')
+//myFunction('?', 'how many times does the character occur in this sentence?')
+
+
+//Write a function that takes an array (a) and a value (n) as argument. Return the nth element of 'a'
+
+function muFunction(a,n) {
+
+    return a[n-1]
+    
+}
+
+muFunction([1,2,3,4,5],3)
+
+
+
+
+
+
+
+
+
+//myFunction([1,2,3,4,5],3)
+//Expected3
+
+//myFunction([10,9,8,7,6],5)
+//Expected6
+
+//myFunction([7,2,1,6,3],1)
+//Expected7
